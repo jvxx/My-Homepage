@@ -1,0 +1,92 @@
+h1 {
+  background-color: #A239CA;
+  color: #E7DFDD;
+  font-family: Roboto Condensed;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 10px;
+  margin: 40px;
+  padding: 20px;
+}
+
+h2 {
+  background-color: #4717f6;
+  color: #E7DFDD;
+  font-family: Roboto;
+  margin: 40px;
+  text-decoration: capitalize;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+p {
+  color: #E7DFDD;
+  text-align: center;
+  margin: 40px;
+  font-family: Roboto;
+}
+
+.intro {
+  color: #E7DFDD;
+  text-align: center;
+  margin: 40px;
+  font-family: Roboto;
+}
+
+.list {
+  color: #E7DFDD;
+  font-family: Roboto;
+  text-decoration: none;
+  display: inline-block;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-left: 170px;
+}
+
+.contacts {
+  color: #E7DFDD;
+  font-family: Roboto;
+  text-decoration: none;
+  display: inline-block;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 20%;
+  margin-left: 25px;
+}
+
+.footer {
+  padding: 20px;
+  padding: 40px;
+  margin: 40px;
+  min-height: calc(100vh);
+}
+
+a {
+  text-decoration: none;
+  color: #E7DFDD;
+  
+}
+
+a:visited {
+  color: tomato;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+	
+  .wrap {
+    min-height: calc(100vh);
+  }
+  
+  .container {
+		width: 70%;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+}
+
+
